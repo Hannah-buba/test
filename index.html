@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Hannah Portfolio</title>
-</head>
-<body class="bg-gray-100 font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-anime-48.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>YAKUBU HANNAH BUBA Landing Page</title>
+  </head>
+  <body>
+    <header
+      class="flex flex-col sm:flex-row justify-between items-center px-10 sm:px-16 py-3 bg-white fixed top-0 left-0 right-0"
+    >
+      <a href="#HOME"> HANNAH YAKUBU </a>
+      <ul class="flex gap-x-10">
+        <li
+          class="hover:bg-slate-300 px-4 py-4 cursor-pointer hover:underline underline-offset-8 ease-in duration-200"
+        >
+          <a class="font-semibold" href="#HOME">HOME</a>
+        </li>
+        <li
+          class="hover:bg-slate-300 px-4 py-4 cursor-pointer hover:underline underline-offset-8 ease-in duration-200"
+        >
+          <a class="font-semibold" href="">ABOUT</a>
+        </li>
+        <li
+          class="hover:bg-slate-300 px-4 py-4 cursor-pointer hover:underline underline-offset-8 ease-in duration-200"
+        >
+          <a class="font-semibold" href="#CONTACT">CONTACT</a>
+        </li>
+      </ul>
+    </header>
+    <main
+      class="bg-black text-white px-10 sm:px-20 pt-48 pb-10 sm:pt-12 md:pt-32 lg:pt-40"
+      id="anime"
+    >
+      <h2
+        class="text-4xl sm:text-6xl font-extrabold leading-loose text-center sm:text-left"
+      >
+        Hello my name is YAKUBU HANNAH BUBA
+      </h2>
+      <p class="text-xl">
+        I'm a student of veritas university 400l Department of Computer science
+      </p>
+      <img
+        class="my-5"
+        src="./images/what-is-anime-image.png"
+        alt="image showing different anime"
+      />
+    </main>
+    <section class="bg-zinc-700 text-white sm:px-20 px-5 py-10" id="top 3">
+      <h2 class="text-center text-3xl sm:text-6xl font-extrabold leading-loose">
+        Projects
+      </h2>
+      <div class="grid grid-cols-10 justify-center items-center gap-5">
+        <div class="md:col-span-7 lg:col-span-7 col-span-10 my-12">
+          <h2 class="text-5xl font-extrabold">PORTFOLIO WEBSITE</h2>
+          <p class="text-xl">
+            A Responsive portfolio website showcasing a student's skills and
+            projects
+          </p>
+        </div>
 
-  <header class="bg-purple-800 text-yellow-100 p-4">
-    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">YAKUBU HANNAH BUBA</h1>
-    <p class="text-sm">vug/csc/20/4364</p>
-  </header>
+        <div class="md:col-span-7 lg:col-span-7 col-span-10 my-12">
+          <h2 class="text-5xl font-extrabold">Designing of a landing page</h2>
+          <p class="text-xl">
+            created a landing page for a luxury tech store showing different
+            devices
+          </p>
+        </div>
 
-  <main class="container mx-auto mt-4">
-
-    
-    <section class="mb-8">
-      <h2 class="text-2xl sm:text-3xl font-semibold mb-4">About Me</h2>
-      <p>My name is YAKUBU HANNAH BUBA</p>
-      <p>I'm a student at Veritas University 400lv</p>
-      <p>I try to code, listen to music, and research too.</p>
-    </section>
-
-    
-    <section class="mb-8 project-grid">
-      <h2 class="text-2xl sm:text-3xl font-semibold mb-4">Projects</h2>
-
-      <div class="mb-4">
-        <h3 class="text-xl sm:text-2xl font-semibold">Portfolio website</h3>
-        <p>A responsive Portfolio website showcasing a student's skills and projects.</p>
+        <div class="md:col-span-7 lg:col-span-7 col-span-10 my-12">
+          <h2 class="text-5xl font-extrabold">A landing page</h2>
+          <p class="text-xl">Replication of a landing page</p>
+        </div>
       </div>
-
-      <div class="mb-4">
-        <h3 class="text-xl sm:text-2xl font-semibold">Designing of a landing page</h3>
-        <p>Created a landing page for a luxury tech store showing different devices.</p>
-      </div>
-
-      <div class="mb-4">
-        <h3 class="text-xl sm:text-2xl font-semibold">A landing page</h3>
-        <p>Replication of a landing page.</p>
+    </section>
+    <section class="bg-black text-white px-6 py-20" id="anime">
+      <h2 class="text-center mb-16 font-extrabold text-4xl sm:text-6xl">
+        Contact
+      </h2>
+      <div class="flex justify-center items-center gap-6">
+        <div>
+          <h3>Email: hannahyakubu999@gmail.com</h3>
+        </div>
+        <div>
+          <h3>Github: Hannah-buba</h3>
+        </div>
       </div>
     </section>
-
-    
-    <section class="mb-8">
-      <h2 class="text-2xl sm:text-3xl font-semibold mb-4">Contact</h2>
-      <p>Email: hannahyakubu999@gmail.com</p>
-      <p>GitHub: github.com/Hannah</p>
-    </section>
-
-  </main>
-
-  
-  <footer class="bg-gray-800 text-white p-4 text-center">
-    &copy; 2023 Yakubu Hannah BUBA. All rights reserved.
-  </footer>
-
-</body>
+    <footer class="bg-gray-800 text white p-4 text center">
+      <p class="text-center">
+        &copy; 2023 Yakubu Hannah Buba. ALL rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
